@@ -228,7 +228,6 @@ public class composeMailPageTest extends Base {
             if (!emailFound) {
                 Assert.fail("Email with subject '" + actualSubject + "' not found in the list.");
             }
-            Thread.sleep(5000);
 
         } catch (Exception mainException) {
             TakeScreenshot("emailListing");
